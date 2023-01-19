@@ -1,0 +1,131 @@
+@font-face {
+    font-family:"mifuente" ;
+    src: url(../assets/FONTS/letric/Letric_PERSONAL_USE_ONLY.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    width: 98vw;
+    height: 200vh;
+    
+
+    
+}
+
+.titulosGrande{
+
+    font-size: 2rem;
+    padding: 10px;
+}
+
+header{
+    width: 98.8vw;
+    height: 30vh;
+    text-align: center;
+    color: #36746F;
+    background-color: #495120;
+    font-size: 1rem;
+    position: sticky;
+    top: 0px;
+}
+nav ul{
+    text-align: center;
+}
+
+nav ul li{
+    display: inline-block;
+    width: 200px;
+    padding: 10px; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    border: 1px solid white;
+    background-color: black;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+aside ul li{
+    display: inline-block;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    background-color: black;
+
+
+}
+
+aside ul li a{
+
+    text-decoration: none;
+    color: white;
+
+}
+
+h1{
+    font-family: "mifuente";
+}
+
+main{
+    width: 98.8vw;
+    height: 150vh;
+    text-align: center;
+    color: white;
+    background-color: #495120;
+    font-size: 1rem;
+
+}
+
+button{
+    text-decoration: none;
+    color: #36746F;
+    background-color: #5EC57E;
+    border: 1px solid white;
+    padding: 2px;
+
+}
+
+section article p{
+
+    font-style: italic;
+}
+
+section article{
+
+    margin: 1px;
+    
+    border: 1px groove black;
+}
+
+footer{
+    width: 98.8vw;
+    height: 20vh;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    background-color: #495120;
+    font-size: 1rem;
+
+}
+div ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+div ul li{
+    display: inline-block;
+    padding: 5px;
+    margin: 1px;
+    border: 2px double black; 
+    background-color: white;
+
+}
