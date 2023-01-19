@@ -1,8 +1,3 @@
-@font-face {
-    font-family:"mifuente" ;
-    src: url(../assets/FONTS/letric/Letric_PERSONAL_USE_ONLY.otf);
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -72,7 +67,7 @@ aside ul li a{
 }
 
 h1{
-    font-family: "mifuente";
+    font-family: 'Alfa Slab One', cursive;
 }
 
 main{
