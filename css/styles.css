@@ -29,6 +29,12 @@ header{
     position: sticky;
     top: 0px;
 }
+
+header div img{
+    width: 250px; 
+    height: 150px; 
+    
+}
 nav ul{
     text-align: center;
 }
@@ -54,7 +60,7 @@ aside ul li{
     padding: 5px;
     margin-top: 10px;
     margin-bottom: 10px;
-    border: 1px solid black;
+    border: 1px solid white;
     background-color: black;
 
 
@@ -120,9 +126,19 @@ div ul li a{
 
 div ul li{
     display: inline-block;
-    padding: 5px;
-    margin: 1px;
-    border: 2px double black; 
-    background-color: white;
+    margin: 20px;
+    
 
 }
+
+div ul li a img{
+    width: 50px; 
+    height: 50px; 
+
+
+
+}
+
+img {width: 300px; 
+    height: 225px ; 
+    margin: 0px 10px; }
