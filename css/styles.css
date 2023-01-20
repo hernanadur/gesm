@@ -146,3 +146,17 @@ img {
     height: 225px ; 
     margin: 0px 10px; 
 }
+
+fieldset div textarea{
+    background-color: black;
+    color: white;
+    font-family: 'Allerta Stencil', sans-serif;
+}
+
+fieldset input{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    padding: 2px;
+    font-family: 'Allerta Stencil', sans-serif;
+}
