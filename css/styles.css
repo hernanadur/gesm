@@ -7,7 +7,10 @@
 
 body{
     width: 98vw;
-    height: 200vh;
+    height: 100vh;
+    background-color: #495120;
+    display: flex;
+    flex-direction: column;
     font-family: 'Allerta Stencil', sans-serif;
 
     
@@ -17,6 +20,7 @@ body{
 
     font-size: 2rem;
     padding: 10px;
+    
 }
 
 header{
@@ -28,6 +32,10 @@ header{
     font-size: 1rem;
     position: sticky;
     top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
 }
 
 header div img{
@@ -75,6 +83,7 @@ aside ul li a{
 
 h1{
     font-family: 'Black Ops One', cursive;
+    flex-basis: 100%;
 }
 
 
@@ -85,6 +94,11 @@ main{
     color: white;
     background-color: #495120;
     font-size: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    
 
 }
 
@@ -145,6 +159,7 @@ img {
     width: 300px; 
     height: 225px ; 
     margin: 0px 10px; 
+    
 }
 
 fieldset div textarea{
