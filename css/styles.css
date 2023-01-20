@@ -68,7 +68,15 @@ aside ul li a{
 }
 
 h1{
-    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Black Ops One', cursive;
+}
+
+h2{
+    font-family: 'Allerta Stencil', sans-serif;
+}
+
+p{
+    font-family: 'Allerta Stencil', sans-serif;
 }
 
 main{
