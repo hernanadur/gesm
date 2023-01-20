@@ -89,11 +89,13 @@ main{
 }
 
 button{
+    position:fixed; bottom: 0px; left: 1000px;
     text-decoration: none;
-    color: #36746F;
-    background-color: #5EC57E;
+    color: white;
+    background-color: black;
     border: 1px solid white;
     padding: 2px;
+    font-family: 'Black Ops One', cursive;
 
 }
 
