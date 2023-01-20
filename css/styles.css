@@ -8,7 +8,7 @@
 body{
     width: 98vw;
     height: 200vh;
-    
+    font-family: 'Allerta Stencil', sans-serif;
 
     
 }
@@ -71,13 +71,6 @@ h1{
     font-family: 'Black Ops One', cursive;
 }
 
-h2{
-    font-family: 'Allerta Stencil', sans-serif;
-}
-
-p{
-    font-family: 'Allerta Stencil', sans-serif;
-}
 
 main{
     width: 98.8vw;
