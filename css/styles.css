@@ -41,7 +41,8 @@ header{
 header div img{
     width: 250px; 
     height: 150px; 
-    flex-basis: 100%;
+    margin: 0px 30px;
+    
     
 }
 nav ul{
