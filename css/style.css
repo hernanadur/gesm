@@ -10,11 +10,13 @@ body {
   background-size: cover; }
 
 header {
-  background-color: rgba(97, 97, 97, 0.7); }
+  background-image: url(../assets/images/fondos/fondonegro.avif); }
   header figure img {
     width: 300px;
     height: 150px;
     margin: 0px; }
+  header figure a {
+    color: white; }
   header nav ul li {
     display: inline-block;
     width: 100px;
@@ -39,6 +41,9 @@ main {
     font-family: "Black Ops One", cursive; }
   main section h2 {
     text-decoration: underline; }
+  main section article p {
+    font-size: 0.8rem;
+    margin: 0px 20px; }
   main section article figure img {
     width: 250px;
     height: 150px;
@@ -63,7 +68,7 @@ main {
 
 footer {
   font-weight: bold;
-  background-color: rgba(97, 97, 97, 0.7); }
+  background-image: url(../assets/images/fondos/fondonegro3.jpg); }
   footer div ul li {
     display: inline-block;
     margin: 5px; }
@@ -81,22 +86,28 @@ footer {
 
 .BordeArticulo {
   width: 98vw;
-  margin: 5px;
-  border: 1px groove black; }
+  margin: 5px 10px;
+  border: 1px groove black;
+  background-image: url(../assets/images/fondos/fondonegro3.jpg); }
 
 .ImagenesGaleria {
   width: 250px;
   height: 150px; }
 
+.Iconos {
+  width: 50px;
+  height: 50px;
+  margin: 0px 50px; }
+
 button {
   position: fixed;
-  bottom: 0px;
+  bottom: 200px;
   left: 400px;
   text-decoration: none;
-  color: white;
-  background-color: black;
-  border: 1px solid white;
-  padding: 2px;
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+  padding: 10px;
   font-family: "Black Ops One", cursive; }
 
 fieldset div textarea {
@@ -148,9 +159,9 @@ fieldset input {
     margin: 5px 5px; }
   button {
     position: fixed;
-    bottom: 0px;
+    bottom: 200px;
     left: 140px;
-    padding: 2px; } }
+    padding: 10px; } }
 
 @media screen and (min-width: 575px) {
   main section article figure iframe {
@@ -168,9 +179,9 @@ fieldset input {
     margin: 0px 5px; }
   button {
     position: fixed;
-    bottom: 0px;
+    bottom: 200px;
     left: 370px;
-    padding: 2px; } }
+    padding: 10px; } }
 
 @media screen and (min-width: 768px) {
   header nav ul li {
@@ -186,9 +197,9 @@ fieldset input {
     margin: 0px 15px; }
   button {
     position: fixed;
-    bottom: 0px;
+    bottom: 200px;
     left: 590px;
-    padding: 2px; } }
+    padding: 10px; } }
 
 @media screen and (min-width: 1024px) {
   header nav ul li {
@@ -212,9 +223,9 @@ fieldset input {
     margin: 5px 5px; }
   button {
     position: fixed;
-    bottom: 0px;
+    bottom: 200px;
     left: 850px;
-    padding: 2px; } }
+    padding: 10px; } }
 
 @media screen and (min-width: 1200px) {
   header figure img {
@@ -225,6 +236,8 @@ fieldset input {
     width: 210px; }
   header nav ul li a:hover {
     width: 210px; }
+  main section article p {
+    font-size: 1rem; }
   main section article figure img {
     width: 400px;
     height: 300px;
@@ -242,9 +255,9 @@ fieldset input {
     margin: 20px 20px; }
   button {
     position: fixed;
-    bottom: 0px;
-    left: 1030px;
-    padding: 2px; } }
+    bottom: 200px;
+    left: 1000px;
+    padding: 10px; } }
 
 @media screen and (min-width: 1400px) {
   main aside ul li {
@@ -253,6 +266,6 @@ fieldset input {
     margin: 0px 70px; }
   button {
     position: fixed;
-    bottom: 0px;
+    bottom: 200px;
     left: 1300px;
-    padding: 2px; } }
+    padding: 10px; } }

@@ -49,8 +49,8 @@
         margin: 5px 5px; 
     }
     button{
-        position:fixed; bottom: 0px; left: 140px;
-        padding: 2px;
+        position:fixed; bottom: 200px; left: 140px;
+        padding: 10px;
     }
 }
 @media screen and (min-width: 575px){
@@ -71,8 +71,8 @@
         margin: 0px 5px;
     }
     button{
-        position:fixed; bottom: 0px; left: 370px;
-        padding: 2px;
+        position:fixed; bottom: 200px; left: 370px;
+        padding: 10px;
     }
 }
 @media screen and (min-width: 768px) {
@@ -93,8 +93,8 @@
         margin: 0px 15px;
     }
     button{
-        position:fixed; bottom: 0px; left: 590px;
-        padding: 2px;
+        position:fixed; bottom: 200px; left: 590px;
+        padding: 10px;
     }   
 }
 @media screen and (min-width: 1024px) {
@@ -125,8 +125,8 @@
         margin: 5px 5px; 
     }
     button{
-        position:fixed; bottom: 0px; left: 850px;
-        padding: 2px;
+        position:fixed; bottom: 200px; left: 850px;
+        padding: 10px;
     }  
 }
 @media screen and (min-width: 1200px) {
@@ -140,6 +140,9 @@
     }
     header nav ul li a:hover{
         width: 210px; 
+    }
+    main section article p{
+        font-size: 1rem;
     }
     main section article figure img{
         width: 400px; 
@@ -162,8 +165,8 @@
         margin: 20px 20px; 
     }
     button{
-        position:fixed; bottom: 0px; left: 1030px;
-        padding: 2px;
+        position:fixed; bottom: 200px; left: 1000px;
+        padding: 10px;
     } 
 }
 @media screen and (min-width: 1400px){
@@ -174,7 +177,7 @@
         margin: 0px 70px;
     }
     button{
-        position:fixed; bottom: 0px; left: 1300px;
-        padding: 2px;
+        position:fixed; bottom: 200px; left: 1300px;
+        padding: 10px;
     }
 }
