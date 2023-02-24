@@ -86,7 +86,13 @@ footer {
 
 .BordeArticulo {
   width: 98vw;
-  margin: 5px 10px;
+  margin: 5px 5px;
+  border: 1px groove black;
+  background-image: url(../assets/images/fondos/fondonegro3.jpg); }
+
+.FondoContacto {
+  width: 96vw;
+  margin: 0px auto;
   border: 1px groove black;
   background-image: url(../assets/images/fondos/fondonegro3.jpg); }
 
@@ -120,7 +126,8 @@ fieldset input {
   color: white;
   border: 1px solid white;
   padding: 2px;
-  font-family: "Allerta Stencil", sans-serif; }
+  font-family: "Allerta Stencil", sans-serif;
+  font-size: 0.8rem; }
 
 @media screen and (min-width: 320px) {
   header figure img {

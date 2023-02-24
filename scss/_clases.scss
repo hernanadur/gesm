@@ -4,9 +4,15 @@
 }
 .BordeArticulo{
     width: 98vw;
-    margin: 5px 10px;
+    margin: 5px 5px;
     border: 1px groove black;
-    background-image: url(../assets/images/fondos/fondonegro3.jpg);
+    background-image: $bg-oscuro;
+}
+.FondoContacto{
+    width: 96vw;
+    margin: 0px auto;
+    border: 1px groove black;
+    background-image: $bg-oscuro;
 }
 .ImagenesGaleria{
     width: 250px;
@@ -37,4 +43,5 @@ fieldset input{
     border: $borde-menu;
     padding: 2px;
     font-family: $fuente-general;
+    font-size: 0.8rem;
 }
